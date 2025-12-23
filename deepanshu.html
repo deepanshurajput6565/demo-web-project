@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Menu</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        .container {
+            width: 90%;
+            border: 2px solid black;
+            margin: 20px auto;
+            padding: 15px;   /* FIX: stops buttons from exceeding border */
+            box-sizing: border-box;  /* ensures width doesn’t expand */
+        }
+
+        .header {
+            background-color: #d3d3d3;
+            text-align: center;
+            padding: 15px;
+            font-size: 22px;
+        }
+
+        .header span {
+            color: red;
+        }
+
+        /* Block */
+        .menu-block {
+            display: block;
+        }
+
+        /* Inline-block (Top menu) */
+        .menu-block a {
+            display: inline-block;
+            margin: 3px;
+            padding: 8px;
+            background-color: #c5e2ff;
+            border: 1px solid #a3b8d9;
+            text-decoration: none;
+            color: black;
+        }
+
+        /* Float (Bottom menu) */
+        .sub-menu a {
+            float: left;
+            margin: 3px;
+            padding: 8px;
+            background-color: #b2f2b2;
+            border: 1px solid #7cc97c;
+            text-decoration: none;
+            color: black;
+        }
+
+        /* Clear float */
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        My <span>Website</span> Navigation
+    </div>
+
+    <div class="menu-block">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="sub-menu">
+        <a href="#">Dashboard</a>
+        <a href="#">Profile</a>
+        <a href="#">Messages</a>
+        <a href="#">Logout</a>
+    </div>
+
+    <div class="clear"></div>
+
+</div>
+
+</body>
+</html>

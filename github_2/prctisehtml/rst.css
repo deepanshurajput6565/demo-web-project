@@ -1,0 +1,140 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background-image: url("E:/premium_photo-1661962305366-0c62646fd249.avif/restaurant-interior.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: #333;
+    background-color: #faf6ee;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 48px;
+    letter-spacing: 3px;
+    color: #556b2f;   /* Olive Green */
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic ;
+}
+
+h4 {
+    text-align: center;
+    margin-top: -10px;
+    font-size: 18px;
+    color: #6b8e23;   /* Soft Fresh Green */
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: rgba(165, 223, 66, 0.9); /* Olive green with blur */
+    padding: 12px 0;
+    margin-top: 20px;
+    backdrop-filter: blur(5px);
+}
+
+nav li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #dcedc8; /* light leaf green */
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 3px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 40px;
+    display: grid;
+}
+
+.gallery div {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9); /* white card */
+    padding: 15px;
+    border-radius: 12px;
+    width: 250px;
+    transition: 0.4s;
+    box-shadow: rgba(85, 107, 47, 0.2) 0px 4px 12px; /* soft green shadow */
+    backdrop-filter: blur(4px);
+}
+
+.gallery div:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(85, 107, 47, 0.35) 0px 8px 20px;
+}
+
+.gallery img {
+    border-radius: 10px;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.gallery p {
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #556b2f; /* Olive green text */
+}
+
+section {
+    width: 60%;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: rgba(85, 107, 47, 0.25) 0px 5px 15px; /* green shadow */
+    backdrop-filter: blur(5px);
+}
+
+section h2 {
+    color: #556b2f;
+    font-size: 28px;
+    border-bottom: 2px solid #556b2f;
+    width: fit-content;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    margin: 8px 0;
+    color: #333;  /* clean dark text */
+}
+.price{
+    color: #333;
+
+}
+button{
+    background-color: #556b2f;
+    color:white;
+    padding:10px 20px ;
+    border:none;
+    border-radius: 5px;
+}
+   
