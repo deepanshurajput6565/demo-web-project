@@ -1,0 +1,21 @@
+/* cascading style sheet */
+/* css version 
+ 1 version 1996
+ 2 version 1997
+ 3 version 2011
+ snapshot 2025
+
+ */
+ /* box model  */
+ .box {
+  width: 200px;
+  padding: 25px;
+  border: 15px solid rgb(214, 214, 224);
+  margin: 10px;
+  background-color: lightyellow;
+  text-align: center;
+  text-transform: capitalize;
+ }
+
+
+ 
