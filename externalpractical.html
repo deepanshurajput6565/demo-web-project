@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdf6e3;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #d35400;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    nav {
+      background-color: #f39c12;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .menu {
+      padding: 20px;
+    }
+    .menu h2 {
+      text-align: center;
+      color: #d35400;
+    }
+    .menu ul {
+      list-style-type: disc;
+      padding-left: 40px;
+    }
+    .menu li {
+      margin: 15px 0;
+    }
+    .menu img {
+      width: 200px;
+      height: auto;
+      display: block;
+      margin-top: 5px;
+    }
+    footer {
+      background-color: #d35400;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    .reservation {
+      display: block;
+      text-align: center;
+      margin: 20px;
+    }
+    .reservation a {
+      background-color: #27ae60;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .reservation a:hover {
+      background-color: #2ecc71;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Restaurant</h1>
+    <p>tasty food</p>
+  </header>
+
+  <nav>
+    <a href="#menu">Menu</a>
+    <a href="#reservation">Reservation</a>
+    
+  </nav>
+
+  <section class="menu" id="menu">
+    <h2>Our Menu</h2>
+    <ul>
+      <li>
+        cheese Pizza
+        <img src="https://via.placeholder.com/200x150?text=Pizza" alt="cheese Pizza">
+      </li>
+      <li>
+        double cheese pizza 
+        <img src="https://via.placeholder.com/200x150?text=Pasta" alt="double cheese pizza">
+      </li>
+      <li>
+         Burger
+        <img src="https://via.placeholder.com/200x150?text=Burger" alt="Burger">
+      </li>
+      
+    </ul>
+  </section>
+
+  <div class="reservation" id="reservation">
+    <a href="https://example.com/reserve">Make a Reservation</a>
+  </div>
+
+  <footer id="contact">
+    <p>📍 1122 food h-50 ,gr. noida</p>
+    <p>📞 +91 0000421004</p>
+    
+  </footer>
+</body>
+</html>
